@@ -12,7 +12,7 @@
 </head>
 <body>
 <h2>-------Delete Resource---------</h2>
-<form id="form-dresource" action="/dresource" method="post">
+<form id="form-dresource" action="/delete" method="post">
 Add resource Id : <input type="text" name="resource_id" id="resource_id"><br><br>
 <input type="submit" name="del_reso" value="Delete resource">
 </form>
@@ -20,6 +20,7 @@ Add resource Id : <input type="text" name="resource_id" id="resource_id"><br><br
     if (request.getAttribute("resource") != null) {
         Resource resource= (Resource) request.getAttribute("resource");
 %>
+
 
 <h1>Resource</h1>
 <p>resource got deleted.</p>

@@ -29,6 +29,7 @@
             Resource resource= (Resource) request.getAttribute("resource");
     %>
 
+
 <h1>Resource</h1>
 <div>Name: <%= resource.getName()%></div>
 <div>Scopes: <%= resource.getResource_scope()%></div>

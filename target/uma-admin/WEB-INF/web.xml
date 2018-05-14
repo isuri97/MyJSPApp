@@ -9,10 +9,15 @@
          id="WebApp_ID" version="3.1">
   <display-name>Archetype Created Web Application</display-name>
 
-  <!--<servlet-mapping>
-  <servlet-name>FormServlet</servlet-name>
+  <servlet>
+    <servlet-name>org.servlet.FormServlet</servlet-name>
+    <servlet-class>org.servlet.FormServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>org.servlet.FormServlet</servlet-name>
   <url-pattern>/resource</url-pattern>
-</servlet-mapping>-->
+</servlet-mapping>
 
   <!--<context-param>
     <param-name>jdbcURL</param-name>
@@ -29,7 +34,7 @@
     <param-value>root</param-value>
   </context-param>
 -->
-  <servlet>
+ <!-- <servlet>
     <servlet-name>FormServlet</servlet-name>
     <servlet-class>org.servlet.FormServlet</servlet-class>
   </servlet>
@@ -37,6 +42,6 @@
   <servlet-mapping>
     <servlet-name>FormServlet</servlet-name>
     <url-pattern>/</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping>-->
 
 </web-app>

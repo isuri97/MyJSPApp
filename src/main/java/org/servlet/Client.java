@@ -52,7 +52,7 @@ public class Client extends AbstractRestClient {
 
     }
 
-    public Resource deleteResource() throws Exception {
+   /* public Resource deleteResource() throws Exception {
 
         Response response = null;
         try {
@@ -69,7 +69,7 @@ public class Client extends AbstractRestClient {
         } finally {
             close(response);
         }
-    }
+    }*/
 
 
     public Resource registerResource() throws Exception {

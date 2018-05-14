@@ -20,3 +20,4 @@
     <a href="GetAllResources.jsp"><input type="submit" value="Get_All_Resource" name="getA_reso" ></a><br><br>
 </body>
 </html>
+

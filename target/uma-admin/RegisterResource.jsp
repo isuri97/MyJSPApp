@@ -24,6 +24,7 @@
     <%-- redirect page to the policy creation --%>
 </form>
 
+
 <%
     if (request.getAttribute("resource") != null) {
         Resource resource= (Resource) request.getAttribute("resource");

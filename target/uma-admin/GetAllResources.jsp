@@ -16,6 +16,7 @@
     <input type="submit" value="Submit">
 </form>
 
+
 <%
     if (request.getAttribute("resource") != null) {
         Resource resource= (Resource) request.getAttribute("resource");

@@ -70,7 +70,7 @@ public class AbstractRestClient {
      * @return {@link Response}
      * @throws Exception throws when exception occurred in WS side
      */
-    public Response delete(final String url) throws Exception {
+    /*public Response delete(final String url) throws Exception {
 
         Response response = createTarget(url).queryParams(parameters).request().delete();
 
@@ -80,7 +80,7 @@ public class AbstractRestClient {
         }
         return response;
     }
-
+*/
     /**
      * Get the server resource from given url and parameters.
      *
