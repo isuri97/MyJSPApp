@@ -18,7 +18,7 @@ public class Client extends AbstractRestClient {
         Response response = null;
         try {
             MultivaluedMap queryParams = new MultivaluedMapImpl();
-            queryParams.add("Authorization", "Bearer 69d332d6-48d2-355c-b264-30b66fd79b1b");
+            queryParams.add("Authorization", "Bearer e0167e9b-24f3-38ad-8474-8ade7f7fc769");
             response = super.get(this.targetServiceUrl + id, queryParams);
             System.out.println(id);
             Resource resource = response.readEntity(Resource.class);

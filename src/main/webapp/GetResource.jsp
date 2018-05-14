@@ -20,7 +20,7 @@
 <br>
 <hr>
 <%-- Display the resource details --%>
-<form id="form-resource" action="/display" method="post">
+<form id="form-resource" action="/resource" method="post">
     Resource ID : <input type="text" name="resource_id" id="resource_id"><br><br>
     <input type="submit" value="Submit">
 </form>
